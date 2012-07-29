@@ -12,10 +12,15 @@
 
      <distributionManagement>
     <repository>
-      <id>${repository.id}</id>
+      <id>release</id>
       <name>MyCo Internal Repository</name>
-      <url>${snapshot.url}</url>
+      <url>${release.url}</url>
     </repository>
+	 <snapshotRepository>
+        <id>snapshot</id>
+        <url>${snapshot.url}</url>
+    </snapshotRepository>
+
   </distributionManagement>
 
   <repositories>
@@ -40,10 +45,10 @@
     </plugins>
   </build>
 
-  <scm>
-	<connection>scm:git:https://github.com/vedanth/git-demo.git</connection>
-	<url>scm:git:https://github.com/vedanth/git-demo.git</url>
-	<developerConnection>scm:git:https://github.com/vedanth/git-demo.git</developerConnection>
+ <scm>
+	<connection>scm:git:git@github.com:vedanth/git-demo.git</connection>
+	<url>scm:git:git@github.com:vedanth/git-demo.git</url>
+	<developerConnection>scm:git:git@github.com:vedanth/git-demo.git</developerConnection>
   </scm>
 
   <properties>
