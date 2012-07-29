@@ -43,6 +43,7 @@
     </plugins>
   </build>
 
+
   <scm>
 	<connection>scm:git:https://github.com/vedanth/git-demo.git</connection>
 	<url>scm:git:https://github.com/vedanth/git-demo.git</url>
