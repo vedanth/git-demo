@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.mavenbook.multispring</groupId>
   <artifactId>parent</artifactId>
-  <version>0.12-SNAPSHOT</version>
+  <version>0.12</version>
   <packaging>pom</packaging>
   <name>Multi-Spring Chapter Parent Project</name>
   <modules>
