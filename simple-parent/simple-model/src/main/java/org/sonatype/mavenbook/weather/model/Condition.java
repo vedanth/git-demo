@@ -16,6 +16,7 @@ public class Condition {
     private Integer id;
     private transient String refrence;
     private transient String refrence1;
+    private transient String refrence2;
     private String text;
     private String code;
     private String temp;
