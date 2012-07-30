@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.sonatype.mavenbook.multispring</groupId>
     <artifactId>simple-parent</artifactId>
-    <version>0.10-SNAPSHOT</version>
+    <version>0.10</version>
   </parent>
   <artifactId>simple-weather</artifactId>
   <packaging>jar</packaging>
@@ -13,7 +13,7 @@
     <dependency>
       <groupId>org.sonatype.mavenbook.multispring</groupId>
       <artifactId>simple-model</artifactId>
-      <version>0.10-SNAPSHOT</version>
+      <version>0.10</version>
     </dependency>
     <dependency>
       <groupId>log4j</groupId>
