@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.sonatype.mavenbook.multispring</groupId>
     <artifactId>simple-parent</artifactId>
-    <version>0.9-SNAPSHOT</version>
+    <version>0.9</version>
   </parent>
   <artifactId>simple-model</artifactId>
   <packaging>jar</packaging>
