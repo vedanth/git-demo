@@ -61,8 +61,8 @@
   </scm>
 
   <properties>
-   <release.url>http://localhost:8081/nexus/content/repositories/releases</release.url>
-   <snapshot.url>http://localhost:8081/nexus/content/repositories/snapshots</snapshot.url>
+   <release.url>http://192.168.2.23:8081/nexus/content/repositories/releases</release.url>
+   <snapshot.url>http://192.168.2.23:8081/nexus/content/repositories/snapshots</snapshot.url>
    <repository.id>snapshot</repository.id>
 </properties>
 
