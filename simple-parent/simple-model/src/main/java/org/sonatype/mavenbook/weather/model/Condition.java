@@ -14,7 +14,7 @@ public class Condition {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
-
+    private transient String refrence;
     private String text;
     private String code;
     private String temp;
